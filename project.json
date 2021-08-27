@@ -1,0 +1,92 @@
+{
+  "name": "Setup Limit",
+  "description": "Blank Process",
+  "main": "ReportUiPath.xaml",
+  "dependencies": {
+    "ReporterForUiPath.Activities": "[2.0.0]",
+    "UiPath.Excel.Activities": "[2.10.4]",
+    "UiPath.Mail.Activities": "[1.10.5]",
+    "UiPath.System.Activities": "[21.4.1]",
+    "UiPath.UIAutomation.Activities": "[21.4.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.4.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2bbe3e8b-9efa-45f7-8548-d7fde0173da5",
+        "fileName": "Datepicker_TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e6b4f395-4023-4605-aac4-950202bb589f",
+        "dataVariationFilePath": ".variations\\testUsername_Sheet1.json",
+        "fileName": "MainTestCase.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "TestCapture.xaml",
+      "uniqueId": "bb90d4a9-ecd2-4689-a2c9-f3577a500dbd",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Datepicker.xaml",
+      "uniqueId": "501a32c0-bcac-442f-8565-785781f76e6c",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Setup Limit - TS_001_TC_001.xaml",
+      "uniqueId": "22e556f4-7c35-4c85-a9a3-c0257e20b336",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "fileupload.xaml",
+      "uniqueId": "f8f4cbe4-f3ce-4213-a034-600ef07e17ba",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "ReportUiPath.xaml",
+      "uniqueId": "d6a14618-30cb-4ecf-9ad7-fa94cd0dd41c",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
